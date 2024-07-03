@@ -1,0 +1,16 @@
+<script>
+  var number = prompt("Enter a Number");
+  if (number <= 1) {
+    console.log("Invalid");
+  } else {
+    for (let i = 2; i < number; i++) {
+      if (number % i == 0) {
+        var result = `not prime`;
+        break;
+      } else {
+        var result = `is prime`;
+      }
+    }
+    console.log(result);
+  }
+</script>

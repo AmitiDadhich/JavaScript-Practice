@@ -1,0 +1,9 @@
+<script>
+  const arrNumber = [1, 9, 87, 852, 65, 655];
+  const minFunction = (arr) => {
+    return arr.reduce(function (pre, cur) {
+      return pre > cur ? cur : pre;
+    });
+  };
+  console.log(minFunction(arrNumber));
+</script>
